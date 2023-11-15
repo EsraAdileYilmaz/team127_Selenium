@@ -12,16 +12,16 @@ public class C01_WebdriverOlusturma {
         WebDriver driver = new ChromeDriver();
 
 
-        driver.get("https://www.testotomasyonu.com");//bu siteye gitsin
+        driver.get("https://www.testotomasyonu.com");//bu siteyi bana getir.parantez icindeki siteye gider
 
         Thread.sleep(5000);//5 sn beklesin
 
         driver.manage().window().maximize();
-        //bu komutla kopyaladigi web sitesini tam ekran yapiyor.
+        //bu 3 methodla kopyaladigi web sitesini tam ekran yapiyor.
 
         Thread.sleep(5000);
 
-        driver.close();//actigin siteyi kapat
+        driver.close();//actigin websitesini kapat
 
 
 

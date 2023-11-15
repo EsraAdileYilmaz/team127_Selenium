@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d93cfab-f082-4e53-8b1d-968b6a7c0ded" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/drivers/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +32,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/familleyilmaz/IdeaProjects/com.team127_Selenium&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -45,13 +41,65 @@
       <recent name="$PROJECT_DIR$/src/resources/drivers" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="C01_WebdriverOlusturma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_seleniumIlkOtomasyon.C01_WebdriverOlusturma" />
+  <component name="RunManager" selected="Application.C07_ByClassnameLocator">
+    <configuration name="C03_getMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C03_getMethodlari" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day01_seleniumIlkOtomasyon.*" />
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_navigateMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C04_navigateMethodlari" />
+      <module name="team127_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05_manageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C05_manageMethodlari" />
+      <module name="team127_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_ByIdLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C06_ByIdLocator" />
+      <module name="team127_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C07_ByClassnameLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C07_ByClassnameLocator" />
+      <module name="team127_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,7 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C01_WebdriverOlusturma" />
+        <item itemvalue="Application.C07_ByClassnameLocator" />
+        <item itemvalue="Application.C06_ByIdLocator" />
+        <item itemvalue="Application.C05_manageMethodlari" />
+        <item itemvalue="Application.C04_navigateMethodlari" />
+        <item itemvalue="Application.C03_getMethodlari" />
       </list>
     </recent_temporary>
   </component>

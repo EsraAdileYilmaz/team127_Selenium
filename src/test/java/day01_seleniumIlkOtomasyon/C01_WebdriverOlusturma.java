@@ -19,7 +19,7 @@ public class C01_WebdriverOlusturma {
         driver.manage().window().maximize();
         //bu 3 methodla kopyaladigi web sitesini tam ekran yapiyor.
 
-        Thread.sleep(5000);
+        
 
         driver.close();//actigin websitesini kapat
 

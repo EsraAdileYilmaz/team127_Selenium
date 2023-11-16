@@ -7,6 +7,7 @@
     <list default="true" id="2d93cfab-f082-4e53-8b1d-968b6a7c0ded" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C07_ByClassnameLocator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +27,7 @@
   <component name="ProjectId" id="2Y7WqksiL7AAxVYk0BSb1x31vMQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
@@ -41,13 +42,13 @@
       <recent name="$PROJECT_DIR$/src/resources/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C07_ByClassnameLocator">
-    <configuration name="C03_getMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C03_getMethodlari" />
+  <component name="RunManager" selected="Application.C01_WebdriverOlusturma">
+    <configuration name="C01_WebdriverOlusturma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day01_seleniumIlkOtomasyon.C01_WebdriverOlusturma" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="PATTERN" value="day01_seleniumIlkOtomasyon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +56,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_navigateMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C04_navigateMethodlari" />
+    <configuration name="C01_Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C01_Xpath" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="PATTERN" value="day04_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_manageMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C05_manageMethodlari" />
+    <configuration name="C04_PremiereTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.day01.C04_PremiereTest" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="PATTERN" value="Practice.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_ByIdLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C06_ByIdLocator" />
+    <configuration name="C05_SelenyumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.day01.C05_SelenyumTest" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="PATTERN" value="Practice.day01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C07_ByClassnameLocator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C07_ByClassnameLocator" />
+    <configuration name="C05__findElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_locators.C05__findElements" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="PATTERN" value="day03_locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C07_ByClassnameLocator" />
-        <item itemvalue="Application.C06_ByIdLocator" />
-        <item itemvalue="Application.C05_manageMethodlari" />
-        <item itemvalue="Application.C04_navigateMethodlari" />
-        <item itemvalue="Application.C03_getMethodlari" />
+        <item itemvalue="Application.C01_WebdriverOlusturma" />
+        <item itemvalue="Application.C01_Xpath" />
+        <item itemvalue="Application.C05__findElements" />
+        <item itemvalue="Application.C05_SelenyumTest" />
+        <item itemvalue="Application.C04_PremiereTest" />
       </list>
     </recent_temporary>
   </component>

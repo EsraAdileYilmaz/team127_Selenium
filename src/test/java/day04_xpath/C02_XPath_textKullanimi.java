@@ -8,17 +8,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C01_Xpath {
+public class C02_XPath_textKullanimi {
 
     public static void main(String[] args) {
 
-        /*
-        1- https://testotomasyonu.com/addremove/ adresine gidin
-        2- Add Element butonuna basin
-        3- Remove butonu’nun gorunur oldugunu test edin
-        4- Remove tusuna basin
-        5- “Add/Remove Elements” yazisinin gorunur oldugunu test edin
-         */
+         /*
+        Xpath link olmasa bile yazisi olan webelementlerini
+        yazi ile locate etmemize imkan tanir.
+        Ornegin:By.xpath("//button[text()='Remove']")
+     */
 
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
@@ -29,10 +27,10 @@ public class C01_Xpath {
         driver.get("https://testotomasyonu.com/addremove/");
 
         // 2- Add Element butonuna basin
-        driver.findElement(By.xpath("//button[@id='sub-btn']")).click();
+        driver.findElement(By.xpath("//button[text()='Add']")).click();
 
         //3- Remove butonu’nun gorunur oldugunu test edin
-        WebElement removeButton =driver.findElement(By.xpath("//button[@class='remove-btn']"));
+        WebElement removeButton =driver.findElement(By.xpath("//button[text()='Remove']"));
         //Bu locate Add'e click() yapildiktan sonra alinan locate'dir.
 
         if(removeButton.isDisplayed()){
@@ -42,10 +40,10 @@ public class C01_Xpath {
         }
 
         //4- Remove tusuna basin
-        driver.findElement(By.xpath("//button[@class='remove-btn']")).click();
+        driver.findElement(By.xpath("//button[text()='Remove']")).click();
 
         // 5- “Add/Remove Elements” yazisinin gorunur oldugunu test edin
-        WebElement addRemoveElement=driver.findElement(By.xpath("//div[@class='container']"));
+        WebElement addRemoveElement=driver.findElement(By.xpath("//*[text()='Add/Remove Elements']"));
 
         if(addRemoveElement.isDisplayed()){
             System.out.println("Test Displayed Add/Remove Elements PASSED");
@@ -64,7 +62,7 @@ public class C01_Xpath {
          */
 
         try {
-            removeButton =driver.findElement(By.xpath("//button[@class='remove-btn']"));
+            removeButton =driver.findElement(By.xpath("//button[text()='Remove']"));
             //Bu locate Add'e click() yapildiktan sonra alinan locate'dir.
             System.out.println("Remove butonu gorunmeme testi FAILED");
         } catch (NoSuchElementException e) {//bulamayinca bu exception'i firlaticak
@@ -74,6 +72,8 @@ public class C01_Xpath {
 
 
         driver.quit();
+
+
 
 
     }

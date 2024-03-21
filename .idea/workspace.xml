@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d93cfab-f082-4e53-8b1d-968b6a7c0ded" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C07_ByClassnameLocator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C02_ilkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C02_ilkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_xpath/C01_Xpath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_xpath/C01_Xpath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +39,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
       <recent name="$PROJECT_DIR$/src/resources/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C01_WebdriverOlusturma">
-    <configuration name="C01_WebdriverOlusturma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day01_seleniumIlkOtomasyon.C01_WebdriverOlusturma" />
-      <module name="team127_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day01_seleniumIlkOtomasyon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.C02_ilkTest">
     <configuration name="C01_Xpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day04_xpath.C01_Xpath" />
       <module name="team127_Selenium" />
@@ -69,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_PremiereTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.day01.C04_PremiereTest" />
+    <configuration name="C02_XPath_textKullanimi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C02_XPath_textKullanimi" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.day01.*" />
+          <option name="PATTERN" value="day04_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_SelenyumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.day01.C05_SelenyumTest" />
+    <configuration name="C02_ilkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C02_ilkTest" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practice.day01.*" />
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05__findElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day03_locators.C05__findElements" />
+    <configuration name="C03_CssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C03_CssSelector" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day03_locators.*" />
+          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_RelativeLocators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day04_xpath.C04_RelativeLocators" />
+      <module name="team127_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day04_xpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C01_WebdriverOlusturma" />
+        <item itemvalue="Application.C02_ilkTest" />
+        <item itemvalue="Application.C03_CssSelector" />
+        <item itemvalue="Application.C04_RelativeLocators" />
+        <item itemvalue="Application.C02_XPath_textKullanimi" />
         <item itemvalue="Application.C01_Xpath" />
-        <item itemvalue="Application.C05__findElements" />
-        <item itemvalue="Application.C05_SelenyumTest" />
-        <item itemvalue="Application.C04_PremiereTest" />
       </list>
     </recent_temporary>
   </component>

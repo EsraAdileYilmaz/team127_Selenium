@@ -41,7 +41,7 @@ public class C02_ilkTest {
         if(actualTitle.contains(expectedTitleIcerigi)){
             System.out.println("Test Title PASSED");
         }else {
-            System.out.println("Test Title FAILDE");
+            System.out.println("Test Title FAILED");
             System.out.println("Actual title: "+actualTitle);
         }
 

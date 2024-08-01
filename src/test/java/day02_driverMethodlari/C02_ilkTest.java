@@ -7,9 +7,9 @@ public class C02_ilkTest {
     public static void main(String[] args) throws InterruptedException {
 
 
-        // testotomasyonu anasayfaya gidin
-        // URL'in https://www.testotomasyonu.com/ oldugunu
-        // ve Title'in test kelimesi icerdigini test edin
+        // 1)testotomasyonu anasayfaya gidin
+        // 2)URL'in https://www.testotomasyonu.com/ oldugunu
+        // 3)ve Title'in test kelimesi icerdigini test edin
 
         // Her test icin Mutlaka bir webdriver olusturmali
         // ve gerekli ayarlamalari yapmaliyiz
@@ -17,10 +17,10 @@ public class C02_ilkTest {
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
 
-        // testotomasyonu anasayfaya gidin
+        // 1)testotomasyonu anasayfaya gidin
         driver.get("https://www.testotomasyonu.com");
 
-        // URL'in https://www.testotomasyonu.com/ oldugunu
+        // 2)URL'in https://www.testotomasyonu.com/ oldugunu
 
         //String expectedURL="https://www.testotomasyonu.com"; bununla failed oldu sonunda / yok
         String expectedURL="https://www.testotomasyonu.com/";
@@ -34,7 +34,7 @@ public class C02_ilkTest {
             //bu bir BUG dir ve raporlanmasi gerekir.
         }
 
-        //ve Title'in test kelimesi icerdigini test edin
+        //3)ve Title'in test kelimesi icerdigini test edin
         String expectedTitleIcerigi="test";
         String actualTitle=driver.getTitle();
 

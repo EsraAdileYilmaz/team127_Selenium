@@ -10,7 +10,7 @@ import java.time.Duration;
 public class C06_ByIdLocator {
 
     public static void main(String[] args) throws InterruptedException {
-
+        //Mahserin 4 atlisi
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver");
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();

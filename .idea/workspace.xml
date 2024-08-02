@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2d93cfab-f082-4e53-8b1d-968b6a7c0ded" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day01_seleniumIlkOtomasyon/C01_WebdriverOlusturma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C03_getMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C03_getMethodlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C05_manageMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C05_manageMethodlari.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C06_ByIdLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C06_ByIdLocator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,23 +32,23 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/familleyilmaz/IdeaProjects/com.team127_Selenium",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/familleyilmaz/IdeaProjects/com.team127_Selenium&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/resources" />
       <recent name="$PROJECT_DIR$/src/resources/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C01_getMethodlari">
+  <component name="RunManager" selected="Application.C03_getMethodlari">
     <configuration name="C01_WebdriverOlusturma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01_seleniumIlkOtomasyon.C01_WebdriverOlusturma" />
       <module name="team127_Selenium" />
@@ -98,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C04_RelativeLocators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_xpath.C04_RelativeLocators" />
+    <configuration name="C03_getMethodlari" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C03_getMethodlari" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C03_getMethodlari" />
         <item itemvalue="Application.C01_getMethodlari" />
         <item itemvalue="Application.C01_WebdriverOlusturma" />
         <item itemvalue="Application.C02_ilkTest" />
         <item itemvalue="Application.C03_CssSelector" />
-        <item itemvalue="Application.C04_RelativeLocators" />
       </list>
     </recent_temporary>
   </component>

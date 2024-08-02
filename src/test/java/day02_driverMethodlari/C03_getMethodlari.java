@@ -27,7 +27,7 @@ public class C03_getMethodlari {
 
         driver.get("https://www.testotomasyonu.com");
         Thread.sleep(1000);
-        //System.out.println(driver.getPageSource());
+        //System.out.println(driver.getPageSource());Tum sayfanin kodlarini getiriyor
 
         System.out.println(driver.getWindowHandle());//E3E57308545A239373533CF79FAF8B4A
         // Window handle degeri : selenium'un olusturdugu her webdriver objesine verdigi

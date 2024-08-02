@@ -27,6 +27,7 @@ public class C05_manageMethodlari {
            gorevi yapmaya cabalayacagi max suredir,
            bu sure icerisinde gorevi yapamazsa
            exception firlatir.
+           Her bir gorev icin belirtilen max sure gecerlidir.Yani her bir gorev icin max sure gecerlidir.
          */
 
         System.out.println("ilk bastaki konum : "+driver.manage().window().getPosition());//ilk bastaki konum : (22, 47)

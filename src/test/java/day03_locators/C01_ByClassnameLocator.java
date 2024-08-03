@@ -30,8 +30,8 @@ public class C01_ByClassnameLocator {
         // arama yapildiktan sonra, sol tarafta cikan Categories menusundeki
         // kategori sayisinin 8 oldugunu test edin.
 
-        List<WebElement> kategoriElementleriListi =driver.findElements(By.className("acc_head"));
-        //8 tane kategoriyi bu liste ekledik.
+        List<WebElement> kategoriElementleriListi =driver.findElements(By.className("acc_head")); //8 tane kategoriyi bu liste ekledik.
+
         int expectedKategoriSayisi=8;
         int actualKategoriSayisi=kategoriElementleriListi.size();
 

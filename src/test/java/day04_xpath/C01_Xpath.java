@@ -67,7 +67,7 @@ public class C01_Xpath {
             removeButton =driver.findElement(By.xpath("//button[@class='remove-btn']"));
             //Bu locate Add'e click() yapildiktan sonra alinan locate'dir.
             System.out.println("Remove butonu gorunmeme testi FAILED");
-        } catch (NoSuchElementException e) {//bulamayinca bu exception'i firlaticak
+        } catch (NoSuchElementException e) {//bulamayinca bu exception'i firlaticak.expected olan bunu yapmasi
             System.out.println("Remove butonu gorunmeme testi PASSED");
 
         }

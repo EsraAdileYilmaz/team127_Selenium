@@ -37,7 +37,7 @@ public class C05__findElements {
         //System.out.println(urunDetaylariElementi.getText());//textin tum detaylarini yazdirdi.
 
         String expectedIcerik="shoe";
-        String actualIcerik=urunDetaylariElementi.getText().toLowerCase();
+        String actualIcerik=urunDetaylariElementi.getText().toLowerCase();//urunun tum detaylarini kucuk harfe cevirdik
         if(actualIcerik.contains(expectedIcerik)){
             System.out.println("Urun detay testi PASSED");
         }else{

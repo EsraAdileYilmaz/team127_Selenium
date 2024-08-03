@@ -11,8 +11,8 @@ public class ReusableMethods {
 
         List<String> stringlerListesi=new ArrayList<>();
         for (WebElement each:elementlerListesi
-             ) {
-            stringlerListesi.add(each.getText());
+             ) {//each her bir WebElementi getirecek
+            stringlerListesi.add(each.getText());//WebElementler uzerindeki her bir texti alip String liste ekledik
         }
         return stringlerListesi;
 

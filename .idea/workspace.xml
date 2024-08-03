@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d93cfab-f082-4e53-8b1d-968b6a7c0ded" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C03_getMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C03_getMethodlari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C05_manageMethodlari.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C05_manageMethodlari.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C06_ByIdLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day02_driverMethodlari/C06_ByIdLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day03_locators/C01_ByClassnameLocator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day03_locators/C01_ByClassnameLocator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +46,7 @@
       <recent name="$PROJECT_DIR$/src/resources/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.C03_getMethodlari">
+  <component name="RunManager" selected="Application.C02_ByClassname">
     <configuration name="C01_WebdriverOlusturma" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day01_seleniumIlkOtomasyon.C01_WebdriverOlusturma" />
       <module name="team127_Selenium" />
@@ -75,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ilkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C02_ilkTest" />
+    <configuration name="C02_ByClassname" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03_locators.C02_ByClassname" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02_driverMethodlari.*" />
+          <option name="PATTERN" value="day03_locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_CssSelector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_xpath.C03_CssSelector" />
+    <configuration name="C02_ilkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day02_driverMethodlari.C02_ilkTest" />
       <module name="team127_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_xpath.*" />
+          <option name="PATTERN" value="day02_driverMethodlari.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.C02_ByClassname" />
         <item itemvalue="Application.C03_getMethodlari" />
         <item itemvalue="Application.C01_getMethodlari" />
         <item itemvalue="Application.C01_WebdriverOlusturma" />
         <item itemvalue="Application.C02_ilkTest" />
-        <item itemvalue="Application.C03_CssSelector" />
       </list>
     </recent_temporary>
   </component>

@@ -34,7 +34,7 @@ public class C04_WebElementMethodlari {
         }
 
         //4- Products linkine tiklayin
-        driver.findElement(By.partialLinkText("Products")).click();
+        driver.findElement(By.partialLinkText("Products")).click();//Basindaki boslugu sildik
 
         //5- special offer yazisinin gorundugunu test edin
         WebElement specialOfferElementi = driver.findElement(By.id("sale_image"));

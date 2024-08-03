@@ -16,7 +16,7 @@ public class C02_XPath_textKullanimi {
         Xpath link olmasa bile yazisi olan webelementlerini
         yazi ile locate etmemize imkan tanir.
         Ornegin:By.xpath("//button[text()='Remove']")
-     */
+        */
 
         System.setProperty("webdriver.chrome.driver","src/resources/drivers/chromedriver");
         WebDriver driver=new ChromeDriver();

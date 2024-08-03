@@ -26,10 +26,12 @@ public class C03__ByLinkText_ByPartialLinkText {
         /*WebElement shoesLinki =driver.findElement(By.linkText("Shoes"));
           shoesLinki.click();
          */
+
+
         //driver.findElement(By.linkText("hoes")).click();
         /*
         Eger By.linkText() methodu kullanirsaniz, link uzerindeki text'i birebir ayni olarak yazmamiz gerekir.
-        bosluk, ? gibi karakterler varsa onlar da mutlaka yazilmalidir.
+        bosluk, ? gibi ozel karakterler varsa onlar da mutlaka yazilmalidir.
         */
 
         //driver.findElement(By.partialLinkText("hoes")).click(); testPASSED oldu
@@ -46,7 +48,7 @@ public class C03__ByLinkText_ByPartialLinkText {
          */
 
 
-        //4)acilan sayfada Title'in shoes icerdigini test edin
+        //4)acilan sayfada Title'in Shoes icerdigini test edin
         String expectedTitleIcerik="Shoes";
         String actualTitle=driver.getTitle();
 
@@ -79,7 +81,7 @@ public class C03__ByLinkText_ByPartialLinkText {
             bunu bir kez daha islemi yapmadan coller yapmaliyiz.
          */
 
-
+        //Sayfayi kapat
         driver.quit();
 
     }

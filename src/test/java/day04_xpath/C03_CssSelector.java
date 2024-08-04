@@ -27,10 +27,10 @@ public class C03_CssSelector {
         WebElement minKutusu= driver.findElement(By.cssSelector("input[class='form-control minPrice']"));
         WebElement maxKutusu= driver.findElement(By.cssSelector("input[class='form-control maxPrice']"));
 
-        minKutusu.clear();
+        minKutusu.clear();//Deger gondermeden once kutunun icindeki degeri silmek gerekiyor
         minKutusu.sendKeys("10");
 
-        maxKutusu.clear();
+        maxKutusu.clear();//Deger gondermeden once kutunun icindeki degeri silmek gerekiyor
         maxKutusu.sendKeys("200");
 
         //filtreleme yapin
@@ -41,6 +41,14 @@ public class C03_CssSelector {
         WebElement aramaSonucElementi=driver.findElement(By.cssSelector(".product-count-text"));
         System.out.println(aramaSonucElementi.getText());
 
+        /*
+            1.COZUM YOLU
+            String aramaSonucuStr = aramaSonucElementi.getText();
+            String sonucSayisiStr= aramaSonucuStr .substring(0, aramaSonucuStr.indexOf(" "));
+            int actualSonucSayisi= Integer.parseInt(sonucSayisiStr)
+         */
+
+        //2.COZUM YOLU
         String aramaSonucuStr = aramaSonucElementi.getText().replaceAll("\\D",""); // "11"
 
         int actualSonucSayisi =  Integer.parseInt(aramaSonucuStr); // int olarak 11

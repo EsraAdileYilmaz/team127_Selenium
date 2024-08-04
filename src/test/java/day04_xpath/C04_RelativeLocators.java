@@ -24,9 +24,9 @@ public class C04_RelativeLocators {
         // DSLR Camera elementini locate edin
         WebElement dslrCamera=driver.findElement(By.xpath("//img[@id='pic7_thumb']"));
 
-        // webelementin HTML kodunda src attribute'unun
+        // Webelementin HTML kodunda src attribute'unun
         // "testotomasyonu.com/uploads/product" icerdigini test edin
-        String srcAttributeValue=dslrCamera.getAttribute("src");//getAttribute() methodu src attribute'nun value'sunu getirir.
+        String srcAttributeValue=dslrCamera.getAttribute("src");//getAttribute() methodu src attribute'nun value'sunu String olarak getirir.
         String expectedHtmlIcerik="testotomasyonu.com/uploads/product";
 
         if(srcAttributeValue.contains(expectedHtmlIcerik)){
@@ -42,7 +42,7 @@ public class C04_RelativeLocators {
 
             etrafindaki webelementleri kullanarak,
             locate islemini yapabilmemiz icin
-            Selenium4 ile birlikte relative locator ozelligi gelmistir.
+            Selenium 4.8 ile birlikte relative locator ozelligi gelmistir.
 
             Relative locator icin
             - hedef elementin en az 1 ozelligi
@@ -91,7 +91,7 @@ public class C04_RelativeLocators {
             System.out.println("Smart Watch test FAILED");
         }
 
-
+        //Sayfayi kapat
         driver.quit();
 
 
